@@ -134,12 +134,12 @@ height:200px;
 color:blue;
 background-color:green;
 border-radius:100px;
-animation:blink 5s infinite;
+animation:blink 4s infinite;
 }
 @keyframes blink
 {
   0%{background-color:red; left:0px; top:0px;}
-  25%  {background-color:yellow; left:0px; top:10px;}
+  25%  {background-color:yellow; left:0px; top:50px;}
   50%  {background-color:blue; left:0px; top:0px;}
   75%  {background-color:green; left:0px; top:0px;}
   100% {background-color:red; left:0px; bottom:10px;}
